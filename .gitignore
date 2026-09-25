@@ -1,0 +1,70 @@
+# ==============================================================================
+# .gitignore — Proyek TA Klasifikasi & Estimasi Nutrisi Makanan Indonesia
+# ==============================================================================
+
+# === PYTHON ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+*.whl
+
+# === VIRTUAL ENVIRONMENT ===
+venv/
+env/
+.venv/
+.env/
+
+# === DATA BESAR (tidak ditrack, terlalu besar untuk Git) ===
+data/raw/
+data/train/
+data/val/
+data/test/
+*.tar.gz
+*.zip
+
+# === MODEL BINER (file model PyTorch/ONNX terlalu besar untuk Git) ===
+models/saved_models/*.pth
+models/onnx/*.onnx
+models/tflite/*.tflite
+mobile_app/assets/models/*.onnx
+
+# === LOGS & CACHE ===
+logs/
+runs/
+*.log
+.cache/
+wandb/
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === OS FILES ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === FLUTTER ===
+mobile_app/.dart_tool/
+mobile_app/.flutter-plugins
+mobile_app/.flutter-plugins-dependencies
+mobile_app/.packages
+mobile_app/build/
+mobile_app/.pub/
+mobile_app/pubspec.lock
+mobile_app/android/.gradle/
+mobile_app/android/local.properties
+mobile_app/ios/Pods/
+mobile_app/ios/.symlinks/
+
+# === JUPYTER ===
+.ipynb_checkpoints/

@@ -1,0 +1,44 @@
+name: indonesian_food_nutrition_ai
+description: >
+  Aplikasi Mobile Klasifikasi Makanan Indonesia & Estimasi Nutrisi
+  Berbasis Convolutional Neural Network State-of-the-Art (ConvNeXt V2-Nano).
+  Dikembangkan untuk Tugas Akhir S1 Informatika.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # === ENGINE INFERENSI & IMAGE PROCESSING ===
+  image_picker: ^1.1.2        # Mengambil foto dari kamera atau galeri
+  image: ^4.2.0               # Preprocessing piksel gambar (resize, normalize RGB)
+  onnxruntime: ^1.2.0         # Engine inferensi model SOTA ONNX di Android/iOS
+
+  # === UI & DESIGN ===
+  flutter_spinkit: ^5.2.1     # Indikator loading animasi halus
+  google_fonts: ^6.2.1        # Tipografi modern Poppins & Inter
+  percent_indicator: ^4.2.3   # Progress bar AKG gizi interaktif
+  cupertino_icons: ^1.0.8     # Icon iOS-style
+  fl_chart: ^0.70.2           # Grafik interaktif nutrisi (pie chart & bar chart)
+  shimmer: ^3.0.0             # Efek shimmer loading skeleton
+  lottie: ^3.3.1              # Animasi Lottie untuk splash & empty state
+  share_plus: ^10.1.4         # Berbagi hasil analisis nutrisi
+  path_provider: ^2.1.5       # Akses filesystem lokal
+  intl: ^0.19.0               # Formatting tanggal & angka lokal Indonesia
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/nutrition.json
+    - assets/models/convnextv2_nano.onnx
+    - assets/models/convnextv2_nano_int8.onnx
