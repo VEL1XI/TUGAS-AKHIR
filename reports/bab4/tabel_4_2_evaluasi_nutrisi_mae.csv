@@ -1,0 +1,6 @@
+Komponen Gizi,Satuan,MAE,MAPE (%),Batas Toleransi Klinis,Penilaian
+Energi (Kalori),kkal,28.4,10.2%,≤ 15%,Sangat Baik
+Protein,gram,2.6,13.4%,≤ 20%,Aman
+Karbohidrat,gram,4.8,11.8%,≤ 15%,Sangat Baik
+Lemak Total,gram,2.9,14.1%,≤ 20%,Aman
+Serat Pangan,gram,0.8,18.5%,≤ 25%,Wajar

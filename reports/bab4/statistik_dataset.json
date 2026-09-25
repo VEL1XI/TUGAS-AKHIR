@@ -1,0 +1,31 @@
+{
+  "total_classes": 100,
+  "total_categories": 8,
+  "categories": {
+    "Nasi & Olahan Beras": 12,
+    "Mie & Bakso": 8,
+    "Sup, Soto & Kuah": 13,
+    "Daging & Unggas": 17,
+    "Ikan & Seafood": 10,
+    "Sayuran & Salad": 10,
+    "Gorengan & Camilan": 19,
+    "Kue & Dessert": 11
+  },
+  "split_ratio": {
+    "train": "70%",
+    "validation": "15%",
+    "test": "15%"
+  },
+  "training_config": {
+    "batch_size": 32,
+    "epochs": 50,
+    "learning_rate": 0.0001,
+    "image_size": 224,
+    "optimizer": "AdamW (weight_decay=0.05)",
+    "scheduler": "CosineAnnealingLR (T_max=epochs)",
+    "loss": "CrossEntropyLoss + Label Smoothing (α=0.1)",
+    "augmentasi": "RandAugment(n=2, m=9) + CutOut(16px) + Random Erasing",
+    "mixed_precision": "FP16 AMP (Automatic Mixed Precision)",
+    "training_strategy": "Multi-Fase Gradual Unfreezing (3 fase)"
+  }
+}

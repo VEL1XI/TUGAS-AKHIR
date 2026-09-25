@@ -1,0 +1,4 @@
+Format Model,Ukuran (MB),Cosine Similarity,Deviasi Maks,Latensi (ms),Speedup,Konsistensi Top-1
+PyTorch Asli (.pth FP32),59.5,1.000000,0.00e+00,28.4,1.0x (Baseline),100.0% (Baseline)
+ONNX FP32 (.onnx),59.4,0.999998,4.20e-06,21.1,1.3x,100.0%
+ONNX INT8 Quantized (.onnx),14.9,0.997420,1.80e-02,11.6,2.4x,98.0%

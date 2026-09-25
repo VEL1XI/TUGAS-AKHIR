@@ -1,0 +1,16 @@
+No,Kelas Sebenarnya (Ground Truth),Diprediksi Sebagai,Kategori GT,Kategori Prediksi,Penjelasan Kemiripan Visual
+1,Soto Ayam,Soto Lamongan,Sup, Soto & Kuah,Sup, Soto & Kuah,Kuah kaldu kuning bening + suwiran ayam identik, perbedaan hanya koya halus
+2,Nasi Uduk,Nasi Liwet,Nasi & Olahan Beras,Nasi & Olahan Beras,Beras putih gurih santan, pembeda visual hanya daun salam/serai
+3,Cireng,Cilok,Gorengan & Camilan,Gorengan & Camilan,Adonan aci/tapioka putih dengan bentuk bulat serupa
+4,Ayam Penyet,Ayam Geprek,Daging & Unggas,Daging & Unggas,Potongan ayam goreng bertekstur serupa, berlumur sambal
+5,Soto Banjar,Soto Ayam,Sup, Soto & Kuah,Sup, Soto & Kuah,Kuah bening kuning, ketupat + suwiran — perbedaan subtle
+6,Gulai Ayam,Opor Ayam,Sup, Soto & Kuah,Sup, Soto & Kuah,Kuah santan kunyit berwarna kuning-oranye dengan potongan ayam
+7,Ikan Goreng,Ikan Bakar,Ikan & Seafood,Ikan & Seafood,Ikan utuh dengan warna kecoklatan, pembeda tekstur permukaan halus
+8,Mie Goreng,Kwetiau Goreng,Mie & Bakso,Mie & Bakso,Mie/kecap dengan sayuran tumis, perbedaan ketebalan mie
+9,Tahu Goreng,Tahu Isi,Gorengan & Camilan,Gorengan & Camilan,Kubus tahu berwarna kuning-coklat goreng, perbedaan isian tidak terlihat
+10,Sate Ayam,Sate Madura,Daging & Unggas,Daging & Unggas,Tusuk daging panggang dengan bumbu kacang — secara visual identik
+11,Martabak Telur,Martabak Manis,Gorengan & Camilan,Gorengan & Camilan,Bentuk kotak tebal goreng, perbedaan hanya isian dan warna
+12,Kue Lapis,Bika Ambon,Kue & Dessert,Kue & Dessert,Kue basah berlapis kuning-hijau dengan tekstur kenyal serupa
+13,Nasi Kuning,Nasi Goreng,Nasi & Olahan Beras,Nasi & Olahan Beras,Nasi berwarna kuning (kunyit vs kecap), perbedaan gradasi warna
+14,Bakwan,Perkedel,Gorengan & Camilan,Gorengan & Camilan,Gorengan berbentuk pipih-bulat berwarna kuning kecoklatan
+15,Cap Cay,Capcay Goreng,Sayuran & Salad,Sayuran & Salad,Tumisan sayuran campuran — perbedaan hanya jumlah kuah

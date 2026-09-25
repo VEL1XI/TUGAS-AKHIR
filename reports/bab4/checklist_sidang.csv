@@ -1,0 +1,31 @@
+Kategori,Item,File,Status
+Pipeline ML,config.py (konfigurasi global 100 kelas),config.py,✅
+Pipeline ML,01_dataset_prep.py (split & validasi data),01_dataset_prep.py,✅
+Pipeline ML,02_preprocessing.py (augmentasi & DataLoader),02_preprocessing.py,✅
+Pipeline ML,03_nutrition_setup.py (basis data gizi),03_nutrition_setup.py,✅
+Pipeline ML,04_model.py (builder 3 arsitektur SOTA),04_model.py,✅
+Pipeline ML,05_training.py (training multi-fase AMP),05_training.py,✅
+Pipeline ML,06_evaluation.py (metrik & confusion matrix),06_evaluation.py,✅
+Pipeline ML,07_nutrition_mapping.py (mapping nutrisi MAE/MAPE),07_nutrition_mapping.py,✅
+Pipeline ML,08_mobile_conversion.py (ONNX + quantization),08_mobile_conversion.py,✅
+Pipeline ML,09_integration_test.py (uji integrasi E2E),09_integration_test.py,✅
+Pipeline ML,10_report_generator.py (generator Bab IV),10_report_generator.py,✅
+Mobile App,Flutter app (Splash → Home → Result → History),mobile_app/,✅
+Mobile App,ONNX Runtime integration service,mobile_app/lib/services/classifier_service.dart,✅
+Mobile App,Nutrition database service (offline JSON),mobile_app/lib/services/nutrition_service.dart,✅
+Mobile App,UI: Pie chart distribusi makronutrien,mobile_app/lib/screens/result_screen.dart,✅
+Mobile App,UI: AKG progress bars & Top-3 candidates,mobile_app/lib/screens/result_screen.dart,✅
+Data,food_nutrition.csv (100 kelas × 7 field),nutrition/food_nutrition.csv,✅
+Data,food_nutrition.json (untuk Python pipeline),nutrition/food_nutrition.json,✅
+Data,nutrition.json (untuk Flutter assets),mobile_app/assets/nutrition.json,✅
+Data,food_nutrition_expert_review.csv (validasi ahli gizi),nutrition/food_nutrition_expert_review.csv,✅
+Laporan,Tabel 4.1: Komparasi arsitektur SOTA (CSV),reports/bab4/,✅
+Laporan,Tabel 4.2: MAE & MAPE estimasi nutrisi (CSV),reports/bab4/,✅
+Laporan,Tabel 4.3: Audit konversi mobile (CSV),reports/bab4/,✅
+Laporan,Tabel 4.4: Top confused pairs (CSV),reports/bab4/,✅
+Laporan,BAB_IV_HASIL_DAN_PEMBAHASAN.md (Draf lengkap skripsi),reports/,✅
+Sidang,Dataset gambar minimal 100 per kelas,data/raw/,⏳ Kumpulkan
+Sidang,Model terlatih (.pth) dari training nyata,models/saved_models/,⏳ Training
+Sidang,File ONNX hasil konversi + quantization,models/onnx/,⏳ Konversi
+Sidang,Screenshot aplikasi Flutter (5 layar),reports/figures/,⏳ Capture
+Sidang,Surat validasi ahli gizi (SPPG/BGN),-,⏳ Minta

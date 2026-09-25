@@ -17,8 +17,15 @@ kandungan nutrisinya secara otomatis.
 - **Basis Data Gizi**: TKPI 2020 / Kemenkes RI (100 kelas, JSON/CSV)
 
 ## Dokumentasi Lengkap
-> 📖 **Panduan Menyeluruh**: Untuk panduan lengkap cara menjalankan seluruh tahapan (Python pipeline Tahap 1 - 10 hingga aplikasi Flutter) serta penjelasan mendalam mengenai cara kerja dan arsitektur sistem, silakan baca:
+> 📖 **Panduan Menyeluruh Sistem**: Untuk alur kerja teknis Python pipeline (Tahap 1 - 10) serta arsitektur backend, silakan baca:  
 > **[CARA_RUN_DAN_CARA_KERJA.md](CARA_RUN_DAN_CARA_KERJA.md)**
+>
+> 📱 **Panduan Aplikasi Mobile (Flutter)**: Untuk dokumentasi lengkap antarmuka mobile, setup Flutter, konfigurasi izin kamera, integrasi ONNX runtime, dan build APK/AAB:  
+> **[mobile_app/README.md](mobile_app/README.md)**
+>
+> 🎓 **Naskah Bab IV Skripsi (Hasil & Pembahasan)**: Draf akademik lengkap Bab IV siap pakai untuk skripsi/sidang sarjana beserta tabel komparasi, analisis MAE/MAPE, dan panduan tanya-jawab penguji:  
+> **[reports/BAB_IV_HASIL_DAN_PEMBAHASAN.md](reports/BAB_IV_HASIL_DAN_PEMBAHASAN.md)**
+
 
 ## Cara Menjalankan Singkat
 

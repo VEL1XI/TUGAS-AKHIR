@@ -131,13 +131,17 @@ TUGAS-AKHIR/
 │
 ├── reports/                      # Laporan performa & Bab IV skripsi
 │   ├── figures/                  # Gambar visualisasi kurva loss, akurasi, confusion matrix
-│   └── bab4/                     # Tabel 4.1 - 4.6 format siap kutip skripsi
+│   ├── bab4/                     # Tabel 4.1 - 4.4 format CSV/JSON siap kutip skripsi
+│   ├── bab_4_panduan_laporan.md  # Panduan ringkas penulisan Bab IV
+│   └── BAB_IV_HASIL_DAN_PEMBAHASAN.md # Draf naskah lengkap Bab IV Hasil & Pembahasan
 │
 └── mobile_app/                   # Aplikasi Mobile Flutter
+    ├── README.md                 # Dokumentasi lengkap aplikasi mobile Flutter
     ├── pubspec.yaml              # Konfigurasi dependensi Flutter
     ├── assets/
     │   ├── nutrition.json        # Basis data gizi offline di dalam bundle aplikasi
     │   └── models/               # Model ONNX mobile (convnextv2_nano.onnx, dll)
+
     └── lib/
         ├── main.dart             # Titik masuk aplikasi, inisialisasi tema modern
         ├── models/
