@@ -16,12 +16,20 @@ kandungan nutrisinya secara otomatis.
 - **Backend ML**: PyTorch + timm library
 - **Basis Data Gizi**: TKPI 2020 / Kemenkes RI (100 kelas, JSON/CSV)
 
-## Cara Menjalankan
+## Dokumentasi Lengkap
+> 📖 **Panduan Menyeluruh**: Untuk panduan lengkap cara menjalankan seluruh tahapan (Python pipeline Tahap 1 - 10 hingga aplikasi Flutter) serta penjelasan mendalam mengenai cara kerja dan arsitektur sistem, silakan baca:
+> **[CARA_RUN_DAN_CARA_KERJA.md](CARA_RUN_DAN_CARA_KERJA.md)**
+
+## Cara Menjalankan Singkat
 
 ### 1. Prerequisites
 ```bash
-# Install Flutter SDK: https://flutter.dev/docs/get-started/install
-# Install Android Studio (untuk Android SDK dan emulator)
+# Python 3.10+ & Virtual Environment
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+
+# Flutter SDK (untuk mobile)
 flutter doctor
 ```
 
